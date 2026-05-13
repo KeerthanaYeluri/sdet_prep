@@ -1,0 +1,57 @@
+# Virtual environments
+.venv/
+.venv1/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+
+# Claude Code
+.claude/
+
+# Node
+node_modules/
+interview/frontend-v2/dist/
+
+# Environment & secrets
+.env
+*.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# BMAD internal
+_bmad/
+_bmad-output/
+
+# Separate git project (has its own repo at growthpath.git)
+interview/
+
+# Windows reserved device name
+nul
+
+# Browser session data (contains sensitive login/cookie data)
+whatsapp_session/
+
+# Debug screenshots
+debug_*.png
+step*.png
